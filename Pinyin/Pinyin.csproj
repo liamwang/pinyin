@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Pinyin</RootNamespace>
+    <AssemblyName>Pinyin</AssemblyName>
+    <PackageId>Pinyin</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>LiamWang</Authors>
+    <Description>A powerful Chinese to Pinyin converter library for .NET</Description>
+    <PackageTags>pinyin;chinese;mandarin;converter</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\multiple-dict.json" />
+    <EmbeddedResource Include="Resources\pinyin-dict.json" />
+    <EmbeddedResource Include="Resources\word-pinyin-dict.json" />
+  </ItemGroup>
+
+</Project>
